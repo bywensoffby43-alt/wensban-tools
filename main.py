@@ -22,7 +22,7 @@ def run_bash_script():
 
 def show_about():
     print(Fore.CYAN + "\nAbout Page:")
-    print(Fore.YELLOW + "Made By WENS DEV 2026/06/22")
+    print(Fore.YELLOW + "Made By WENS DEV 2026/10/30")
     print(Fore.GREEN + "Ban tool v1.1f-request-python3")
     print(Fore.RED + """
          _____
