@@ -7,7 +7,7 @@ import string
 from colorama import Fore, Style, init
 init(autoreset=True)
 import os
-print(f"Created by **>>BayLak<<** 2025/01/22")
+print(f"Created by **>>WENS DEV<<** 2026/10/30")
 def is_valid_country_code(phone_number):
     pattern = r"^\+\d{1,4}\d{10,12}$"  # Modified to allow 10 to 12 digits
     return re.match(pattern, phone_number) is not None
@@ -162,5 +162,5 @@ def send_requests(num_requests, delay):
         except requests.exceptions.RequestException as e:
             print(f"{random_name_phones} {i+1} - An error occurred: {e}")
 
-# Send 5 requests with a 10-second delay between each request
+# Send 5 requests with a 0-second delay between each request
 send_requests(num_requests, 0)
